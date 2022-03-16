@@ -9,7 +9,7 @@ app.use(express.json())
 //middleware
 // app.use(express.static(path.join(__dirname, "../public")))
 app.get("/", function (req,res){
-    res.sendFile(path.join(__dirname,"../public/landing.html"))
+    res.sendFile(path.join(__dirname,"../public"))
 })
 
 const port = process.env.PORT || 6900
