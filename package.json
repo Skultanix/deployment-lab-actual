@@ -1,0 +1,24 @@
+{
+  "name": "deployment-lab-actual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skultanix/deployment-lab-actual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skultanix/deployment-lab-actual/issues"
+  },
+  "homepage": "https://github.com/Skultanix/deployment-lab-actual#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
